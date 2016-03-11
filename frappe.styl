@@ -11,13 +11,13 @@ body
   font-family sans-serif
   color #333
 
-.fila
+.row
   width 90%
   margin 2% auto
   background #fff
   overflow hidden
 
-.columna
+.pillar
   background-color lightblue
   box-sizing border-box
   float left
@@ -28,19 +28,19 @@ body
 
 
 @media (min-width: 480px)
-  // cuatro columnas a dos
-  .cuatro-columnas .columna,
-  .seis-columnas .columna
+  // four pillars a two
+  .four-pillars .pillar,
+  .six-pillars .pillar
     width 49%
 
-  .cuatro-columnas .columna:nth-child(2n),
-  .seis-columnas .columna:nth-child(2n)
+  .four-pillars .pillar:nth-child(2n),
+  .six-pillars .pillar:nth-child(2n)
     margin-right 0
 
-  .doce-columnas .columna
+  .twelve-pillars .pillar
     width 32%
 
-  .doce-columnas .columna:nth-child(3n)
+  .twelve-pillars .pillar:nth-child(3n)
     margin-right 0
 
 
@@ -59,63 +59,63 @@ body
 
   .left-sidebar .content
     margin-right 0
-  // tres columnas
-  .tres-columnas .columna
+  // three pillars
+  .three-pillars .pillar
     width 32%
 
-  .tres-columnas .columna:nth-child(3n)
+  .three-pillars .pillar:nth-child(3n)
     margin-right 0
 
-  .seis-columnas .columna
+  .six-pillars .pillar
     width 15%
 
-  .seis-columnas .columna:nth-child(2n)
+  .six-pillars .pillar:nth-child(2n)
     margin-right 2%
 
-  .seis-columnas .columna:nth-child(6n)
+  .six-pillars .pillar:nth-child(6n)
     margin-right 0
 
-  .doce-columnas .columna
+  .twelve-pillars .pillar
     width 23.5%
 
-  .doce-columnas .columna:nth-child(2n)
+  .twelve-pillars .pillar:nth-child(2n)
     margin-right 2%
 
-  .doce-columnas .columna:nth-child(3n)
+  .twelve-pillars .pillar:nth-child(3n)
     margin-right 2%
 
-  .doce-columnas .columna:nth-child(4n)
+  .twelve-pillars .pillar:nth-child(4n)
     margin-right 0
 
 
 
 
 @media (min-width: 1024px)
-  // Dos columnas
-  .dos-columnas .columna
+  // two pillars
+  .two-pillars .pillar
     width 49%
 
-  .dos-columnas .columna:nth-child(2n)
+  .two-pillars .pillar:nth-child(2n)
     margin-right 0
 
 
-  // cuatro columnas
+  // four pillars
 
-  .cuatro-columnas .columna
+  .four-pillars .pillar
     width 23.5%
 
-  .cuatro-columnas .columna:nth-child(2n)
+  .four-pillars .pillar:nth-child(2n)
     margin-right 2%
 
-  .cuatro-columnas .columna:nth-child(4n)
+  .four-pillars .pillar:nth-child(4n)
     margin-right 0
 
 
-  .doce-columnas .columna
+  .twelve-pillars .pillar
     width 6.5%
 
-  .doce-columnas .columna:nth-child(4n)
+  .twelve-pillars .pillar:nth-child(4n)
     margin-right 2%
 
-  .doce-columnas .columna:nth-child(12n)
+  .twelve-pillars .pillar:nth-child(12n)
     margin-right 0
