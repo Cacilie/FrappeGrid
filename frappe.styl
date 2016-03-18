@@ -1,31 +1,32 @@
-body,html,h2
+*
+  margin 0
+  padding 0
+
+*, *:before, *:after
+	box-sizing inherit
+
+body,html
   margin 0
   padding 0
   text-align center
-
-h2
-  font-size .8em
-
-body
-  background #eee
-  font-family sans-serif
-  color #333
+  -webkit-border-sizing border-box
+  -moz-border-sizing border-box
+  -ms-border-sizing border-box
+  -o-border-sizing border-box
+  border-sizing border-box
 
 .row
   width 90%
   margin 2% auto
-  background #fff
   overflow hidden
 
 .pillar
-  background-color lightblue
+  background-color #32261f
   box-sizing border-box
   float left
   margin-right 2%
   width 100%
   padding 1em
-
-
 
 @media (min-width: 480px)
   // four pillars a two
