@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-border-sizing: border-box;
+  -moz-border-sizing: border-box;
+  -ms-border-sizing: border-box;
+  -o-border-sizing: border-box;
+  border-sizing: border-box;
+}
+.row {
+  width: 90%;
+  margin: 2% auto;
+  overflow: hidden;
+}
+
+.row-fluid{
+  width: 100%;
+  overflow: hidden;
+}
+.pillar {
+  /*background-color: #32261f;*/
+  box-sizing: border-box;
+  float: left;
+  margin-right: 2%;
+  width: 100%;
+  padding: 1em;
+}
+@media (min-width: 480px) {
+  .four-pillars .pillar,
+  .six-pillars .pillar {
+    width: 49%;
+  }
+  .four-pillars .pillar:nth-child(2n),
+  .six-pillars .pillar:nth-child(2n) {
+    margin-right: 0;
+  }
+  .twelve-pillars .pillar {
+    width: 32%;
+  }
+  .twelve-pillars .pillar:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar {
+    width: 23.5%;
+  }
+  .content {
+    width: 74.5%;
+  }
+  .right-sidebar .sidebar {
+    margin-right: 0;
+  }
+  .left-sidebar .content {
+    margin-right: 0;
+  }
+  .three-pillars .pillar {
+    width: 32%;
+  }
+  .three-pillars .pillar:nth-child(3n) {
+    margin-right: 0;
+  }
+  .six-pillars .pillar {
+    width: 15%;
+  }
+  .six-pillars .pillar:nth-child(2n) {
+    margin-right: 2%;
+  }
+  .six-pillars .pillar:nth-child(6n) {
+    margin-right: 0;
+  }
+  .twelve-pillars .pillar {
+    width: 23.5%;
+  }
+  .twelve-pillars .pillar:nth-child(2n) {
+    margin-right: 2%;
+  }
+  .twelve-pillars .pillar:nth-child(3n) {
+    margin-right: 2%;
+  }
+  .twelve-pillars .pillar:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .two-pillars .pillar {
+    width: 49%;
+  }
+  .two-pillars .pillar:nth-child(2n) {
+    margin-right: 0;
+  }
+  .four-pillars .pillar {
+    width: 23.5%;
+  }
+  .four-pillars .pillar:nth-child(2n) {
+    margin-right: 2%;
+  }
+  .four-pillars .pillar:nth-child(4n) {
+    margin-right: 0;
+  }
+  .twelve-pillars .pillar {
+    width: 6.5%;
+  }
+  .twelve-pillars .pillar:nth-child(4n) {
+    margin-right: 2%;
+  }
+  .twelve-pillars .pillar:nth-child(12n) {
+    margin-right: 0;
+  }
+}
