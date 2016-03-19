@@ -89,10 +89,19 @@ html {
   }
 }
 @media (min-width: 1024px) {
+  .one-pillar .pillar {
+    width: 100%;
+  }
   .two-pillars .pillar {
     width: 49%;
   }
   .two-pillars .pillar:nth-child(2n) {
+    margin-right: 0;
+  }
+  .three-pillars .pillar {
+    width: 32%;
+  }
+  .three-pillars .pillar:nth-child(3n) {
     margin-right: 0;
   }
   .four-pillars .pillar {
@@ -102,6 +111,48 @@ html {
     margin-right: 2%;
   }
   .four-pillars .pillar:nth-child(4n) {
+    margin-right: 0;
+  }
+  .five-pillars .pillar {
+    width: 18.4%;
+  }
+  .five-pillars .pillar:nth-child(5n) {
+    margin-right: 0;
+  }
+  .six-pillars .pillar {
+    width: 15%;
+  }
+  .six-pillars .pillars:nth-child(6n) {
+    margin-right: 0;
+  }
+  .seven-pillars .pillar {
+    width: 12.571428%;
+  }
+  .seven-pillars .pillar:last-child {
+    margin-right: 0;
+  }
+  .eight-pillars .pillar {
+    width: 10.75%;
+  }
+  .eight-pillars .pillar:last-child {
+    margin-right: 0;
+  }
+  .nine-pillars .pillar {
+    width: 9.333333%;
+  }
+  .nine-pillars .pillar:last-child {
+    margin-right: 0;
+  }
+  .ten-pillars .pillar {
+    width: 8.2%;
+  }
+  .ten-pillars .pillar:last-child {
+    margin-right: 0;
+  }
+  .eleven-pillars .pillar {
+    width: 7.272727%;
+  }
+  .eleven-pillars .pillar:last-child {
     margin-right: 0;
   }
   .twelve-pillars .pillar {
