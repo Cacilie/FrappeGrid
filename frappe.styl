@@ -31,11 +31,23 @@ body,html
 @media (min-width: 480px)
   // four pillars a two
   .four-pillars .pillar,
+  .eight-pillars .pillar,
   .six-pillars .pillar
     width 49%
 
+  .nine-pillars .pillar
+    width 32%
+  .nine-pillars .pillar:nth-child(3n)
+    margin-right 0
+
   .four-pillars .pillar:nth-child(2n),
+  .eight-pillars .pillar:nth-child(2n),
   .six-pillars .pillar:nth-child(2n)
+    margin-right 0
+
+  .ten-pillars .pillar
+    width 18.4%
+  .ten-pillars .pillar:nth-child(5n)
     margin-right 0
 
   .twelve-pillars .pillar
@@ -61,10 +73,12 @@ body,html
   .left-sidebar .content
     margin-right 0
   // three pillars
-  .three-pillars .pillar
+  .three-pillars .pillar,
+  .nine-pillars .pillar
     width 32%
 
-  .three-pillars .pillar:nth-child(3n)
+  .three-pillars .pillar:nth-child(3n),
+  .nine-pillars .pillar:nth-child(3n)
     margin-right 0
 
   .six-pillars .pillar
@@ -121,13 +135,6 @@ body,html
   .four-pillars .pillar:nth-child(4n)
     margin-right 0
 
-  //Five Pillars
-  .five-pillars .pillar
-    width 18.4%
-
-  .five-pillars .pillar:nth-child(5n)
-    margin-right 0
-
   //Six Pillars
   .six-pillars .pillar
     width 15%
@@ -135,40 +142,36 @@ body,html
   .six-pillars .pillars:nth-child(6n)
     margin-right 0
 
-  //Seven Pillars
-  .seven-pillars .pillar
-    width 12.571428%
-
-  .seven-pillars .pillar:last-child
-    margin-right 0
-
   //Eight Pillars
   .eight-pillars .pillar
     width 10.75%
-
-  .eight-pillars .pillar:last-child
+  .eight-pillars .pillar:nth-child(2n)
+    margin-right 2%
+  .eight-pillars .pillar:nth-child(4n)
+    margin-right 2%
+  .eight-pillars .pillar:nth-child(8n)
     margin-right 0
 
   //Nine Pillars
   .nine-pillars .pillar
     width 9.333333%
 
-  .nine-pillars .pillar:last-child
+
+  .nine-pillars .pillar:nth-child(3n)
+    margin-right 2%
+  .nine-pillars .pillar:nth-child(9n)
     margin-right 0
 
   //Ten Pillars
   .ten-pillars .pillar
     width 8.2%
 
-  .ten-pillars .pillar:last-child
+  .ten-pillars .pillar:nth-child(5n)
+    margin-right 2%
+
+  .ten-pillars .pillar:nth-child(10n)
     margin-right 0
 
-  //Eleven Pillars
-  .eleven-pillars .pillar
-    width 7.272727%
-
-  .eleven-pillars .pillar:last-child
-    margin-right 0
 
   //Twelve Pillars
 
